@@ -1,0 +1,33 @@
+{
+  "name": "useful_utils",
+  "version": "0.0.1",
+  "description": "A set of command line utilities that I find useful.",
+  "bin": {
+    "find_http_servers": "find_http_servers.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jjjahnke/useful_utils.git"
+  },
+  "author": "Jerome Jahnke <j-jahnke@tormenta.com> (http://www.tormenta.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jjjahnke/useful_utils/issues"
+  },
+  "homepage": "https://github.com/jjjahnke/useful_utils#readme",
+  "dependencies": {
+    "promise-limit": "^2.4.0",
+    "yargs": "^8.0.2"
+  },
+  "devDependencies": {
+    "chai": "^4.0.2",
+    "co-mocha": "^1.2.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.4.2",
+    "sinon": "^2.3.6",
+    "sinon-chai": "^2.11.0"
+  }
+}
